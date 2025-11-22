@@ -1,6 +1,12 @@
+html,
+section,
+header {
+  background-color: #2e4172;
+  color: #7887ab;
+}
+
 header {
   display: flex;
-  justify-content: center;
 }
 
 section {
