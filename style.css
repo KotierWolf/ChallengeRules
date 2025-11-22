@@ -5,3 +5,7 @@ h1 {
 .sharkboy {
   text-align: center;
 }
+
+.card-title {
+    text-decoration: underline;
+}
