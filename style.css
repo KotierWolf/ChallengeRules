@@ -1,18 +1,13 @@
-
-
-h1 {
-  text-align: center;
+header {
+  display: flex;
+  justify-content: center;
 }
 
-.sharkboy {
-  text-align: center;
-}
-
-.card-title {
-  text-decoration: underline;
-}
-
-img {
-  width: 450px;
-  height: 300px;
+section {
+  display: inline-flex;
+  flex-direction: row;
+  gap: 4rem;
+  padding: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
 }
