@@ -11,10 +11,7 @@ header {
 }
 
 section {
-  display: inline-flex;
-  flex-direction: row;
+  flex-direction: column;
   gap: 4rem;
   padding: 2rem;
-  flex-wrap: wrap;
-  justify-content: center;
 }
