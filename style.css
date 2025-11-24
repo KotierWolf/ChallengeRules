@@ -1,17 +1,32 @@
-html,
-section,
-header {
-  background-color: #2e4172;
-  color: #7887ab;
+.overall {
+  justify-content: center;
+  color: white;
+}
+
+.sharkboy {
+  border-style: none;
 }
 
 header {
   display: flex;
   justify-content: center;
+  color: white;
 }
 
 section {
-  flex-direction: column;
+  display: inline-flex;
+  flex-wrap: wrap;
   gap: 4rem;
   padding: 2rem;
+}
+
+h2 {
+  text-decoration: underline;
+  text-align: center;
+}
+
+p {
+  width: 15rem;
+  border-style: groove;
+  text-align: center;
 }
