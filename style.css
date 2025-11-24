@@ -9,6 +9,9 @@
 
 .sharkboy {
   border-style: none;
+  text-align: center;
+  width: 100%;
+  color: white;
 }
 
 header {
@@ -40,37 +43,10 @@ p {
 }
 
 img {
+  display: inline-flex;
   width: 2.5rem;
   height: 2.5rem;
   transition: all 1s;
-}
-
-/* relevant styles */
-.img__wrap {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  height: 4rem;
-  width: 4rem;
-}
-
-.img__description {
-  position: relative;
-  top: -2.5rem;
-  bottom: 0;
-  left: 2.6rem;
-  right: 0;
-  background: rgba(29, 106, 154, 0.72);
-  color: #fff;
-  visibility: hidden;
-  opacity: 0;
-  width: fit-content;
-  height: fit-content;
-}
-
-.img__wrap:hover .img__description {
-  visibility: visible;
-  opacity: 1;
 }
 
 img:hover {
