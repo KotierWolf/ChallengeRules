@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -11,6 +10,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="/path/to/styles/default.css" />
+    <link rel="stylesheet" href="style.css" />
 
     <title>Monster Hunter Wilds Challenge Rules</title>
   </head>
@@ -21,418 +21,593 @@
       <h1>Challenge Hunt Rules</h1>
     </header>
     <p class="sharkboy">
-      Set by <a href="https://www.twitch.tv/sharkboy1601">sharkboy1601</a>
+      Set by
+      <a class="twitch-link" href="https://www.twitch.tv/sharkboy1601"
+        >sharkboy1601</a
+      >
     </p>
 
-    <hr class="horizontal-line" />
-
-    <section class="overall">
+    <section>
       <!-- WEAPON -->
-      <div class="weapon">
-        <h2>WEAPON</h2>
-        <p>
-          Any <code>LEVEL 4</code> hope weapon of your choice from the
-          <code>EXPEDITION</code> tree.
-        </p>
-      </div>
+      <div class="accordion" id="accordionPanelsStayOpenExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseOne"
+              aria-expanded="true"
+              aria-controls="panelsStayOpen-collapseOne"
+            >
+              WEAPON
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapseOne"
+            class="accordion-collapse collapse show"
+          >
+            <div class="accordion-body">
+              Any <code>LEVEL 4</code> hope weapon of your choice from the
+              <code>EXPEDITION</code> tree.
+            </div>
+          </div>
+        </div>
 
-      <!-- GEAR -->
-      <div class="gear">
-        <h2>GEAR</h2>
-        <p>
-          Only one fully upgaraded <code>HEAD, CHEST, ARMS, WAIST,</code> or
-          <code>LEGS</code> allowed in a gear slot. All other gear slots must
-          have unequipped gear and remain empty. In short, only
-          <code>one</code> gear piece is allowed.
+        <!-- GEAR -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseTwo"
+              aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseTwo"
+            >
+              GEAR
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapseTwo"
+            class="accordion-collapse collapse"
+          >
+            <div class="accordion-body">
+              Only one fully upgaraded <code>HEAD, CHEST, ARMS, WAIST,</code> or
+              <code>LEGS</code> allowed in a gear slot. All other gear slots
+              must have unequipped gear and remain empty. In short, only
+              <code>ONE</code> gear piece is allowed.
 
-          <br />
+              <br />
 
-          For <code>DECORATIONS</code>, only equip what is listed in the
-          <code>DECORATIONS SECTION</code>.
-        </p>
-      </div>
+              For <code>DECORATIONS</code>, only equip what is listed in the
+              <code>DECORATIONS SECTION</code>.
+            </div>
+          </div>
+        </div>
 
-      <!-- DECORATIONS -->
-      <div class="decorations">
-        <h2>DECORATIONS</h2>
-        <p>
-          [Shockproof Jewel 1] <br />
-          <code>SHOCK ABSORBER</code>
-        </p>
-      </div>
+        <!-- DECORATIONS -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseThree"
+              aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseThree"
+            >
+              DECORATIONS
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapseThree"
+            class="accordion-collapse collapse"
+          >
+            <div class="accordion-body">
+              [Shockproof Jewel 1] <code>SHOCK ABSORBER</code>
+            </div>
+          </div>
+        </div>
 
-      <!-- TALISMAN -->
-      <div class="talisman">
-        <h2>TALISMAN</h2>
-        <p>NONE</p>
-      </div>
+        <!-- TALISMANS -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseFour"
+              aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseFour"
+            >
+              TALISMANS
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapseFour"
+            class="accordion-collapse collapse"
+          >
+            <div class="accordion-body">
+              <code>NONE</code>
+            </div>
+          </div>
+        </div>
 
-      <!-- MANTLE -->
-      <div class="mantle">
-        <h2>MANTLE</h2>
-        <p>NONE</p>
-      </div>
+        <!-- MANTLES -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseFive"
+              aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseFive"
+            >
+              MANTLES
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapseFive"
+            class="accordion-collapse collapse"
+          >
+            <div class="accordion-body">
+              <code>NONE</code>
+            </div>
+          </div>
+        </div>
 
-      <!-- LOADOUT -->
-      <div class="loadout">
-        <h2>LOADOUT</h2>
-        <p class="allowed-items">
-          ALLOWED &#x2713;
-          <br />
-          <a
-            href="https://game8.co/games/Monster-Hunter-Wilds/archives/503802"
-            target="_blank"
-            ><img src="images/ancientpotion.png" alt="" srcset=""
-          /></a>
+        <!-- LOADOUT ITEMS -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseSix"
+              aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseSix"
+            >
+              LOADOUT ITEMS
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapseSix"
+            class="accordion-collapse collapse"
+          >
+            <div class="accordion-body">
+              <p class="allowed-items">
+                ALLOWED &#x2713;
+                <br />
+                <a
+                  href="https://game8.co/games/Monster-Hunter-Wilds/archives/503802"
+                  target="_blank"
+                  ><img src="images/ancientpotion.png" alt="" srcset=""
+                /></a>
 
-          <a
-            href="https://game8.co/games/Monster-Hunter-Wilds/archives/501852"
-            target="_blank"
-            ><img src="images/antidote.png" alt="" srcset=""
-          /></a>
+                <a
+                  href="https://game8.co/games/Monster-Hunter-Wilds/archives/501852"
+                  target="_blank"
+                  ><img src="images/antidote.png" alt="" srcset=""
+                /></a>
 
-          <a
-            href="https://game8.co/games/Monster-Hunter-Wilds/archives/503789"
-            target="_blank"
-            ><img src="images/burntmeat.png" alt="" srcset=""
-          /></a>
+                <a
+                  href="https://game8.co/games/Monster-Hunter-Wilds/archives/503789"
+                  target="_blank"
+                  ><img src="images/burntmeat.png" alt="" srcset=""
+                /></a>
 
-          <a
-            href="https://game8.co/games/Monster-Hunter-Wilds/archives/504891"
-            target="_blank"
-            ><img src="images/charredlizard.png" alt="" srcset=""
-          /></a>
+                <a
+                  href="https://game8.co/games/Monster-Hunter-Wilds/archives/504891"
+                  target="_blank"
+                  ><img src="images/charredlizard.png" alt="" srcset=""
+                /></a>
 
-          <a
-            href="https://game8.co/games/Monster-Hunter-Wilds/archives/503794"
-            target="_blank"
-            ><img src="images/cleanser.png" alt="" srcset=""
-          /></a>
+                <a
+                  href="https://game8.co/games/Monster-Hunter-Wilds/archives/503794"
+                  target="_blank"
+                  ><img src="images/cleanser.png" alt="" srcset=""
+                /></a>
 
-          <a
-            href="https://game8.co/games/Monster-Hunter-Wilds/archives/503796"
-            target="_blank"
-            ><img src="images/cooldrink.png" alt="" srcset=""
-          /></a>
+                <a
+                  href="https://game8.co/games/Monster-Hunter-Wilds/archives/503796"
+                  target="_blank"
+                  ><img src="images/cooldrink.png" alt="" srcset=""
+                /></a>
 
-          <a
-            href="https://game8.co/games/Monster-Hunter-Wilds/archives/503801"
-            target="_blank"
-            ><img src="images/deodorant.png" alt="" srcset=""
-          /></a>
+                <a
+                  href="https://game8.co/games/Monster-Hunter-Wilds/archives/503801"
+                  target="_blank"
+                  ><img src="images/deodorant.png" alt="" srcset=""
+                /></a>
 
-          <a
-            href="https://game8.co/games/Monster-Hunter-Wilds/archives/503795"
-            target="_blank"
-            ><img src="images/dustoflife.png" alt="" srcset=""
-          /></a>
+                <a
+                  href="https://game8.co/games/Monster-Hunter-Wilds/archives/503795"
+                  target="_blank"
+                  ><img src="images/dustoflife.png" alt="" srcset=""
+                /></a>
 
-          <a
-            href="https://game8.co/games/Monster-Hunter-Wilds/archives/502416"
-            target="_blank"
-            ><img src="images/energydrink.png" alt="" srcset=""
-          /></a>
+                <a
+                  href="https://game8.co/games/Monster-Hunter-Wilds/archives/502416"
+                  target="_blank"
+                  ><img src="images/energydrink.png" alt="" srcset=""
+                /></a>
 
-          <a
-            href="https://game8.co/games/Monster-Hunter-Wilds/archives/501859"
-            target="_blank"
-            ><img src="images/herbalmedicine.png" alt="" srcset=""
-          /></a>
+                <a
+                  href="https://game8.co/games/Monster-Hunter-Wilds/archives/501859"
+                  target="_blank"
+                  ><img src="images/herbalmedicine.png" alt="" srcset=""
+                /></a>
 
-          <a
-            href="https://game8.co/games/Monster-Hunter-Wilds/archives/501863"
-            target="_blank"
-            ><img src="images/herbalpowder.png" alt="" srcset=""
-          /></a>
+                <a
+                  href="https://game8.co/games/Monster-Hunter-Wilds/archives/501863"
+                  target="_blank"
+                  ><img src="images/herbalpowder.png" alt="" srcset=""
+                /></a>
 
-          <a
-            href="https://game8.co/games/Monster-Hunter-Wilds/archives/503797"
-            target="_blank"
-            ><img src="images/hotdrink.png" alt="" srcset=""
-          /></a>
+                <a
+                  href="https://game8.co/games/Monster-Hunter-Wilds/archives/503797"
+                  target="_blank"
+                  ><img src="images/hotdrink.png" alt="" srcset=""
+                /></a>
 
-          <a
-            href="https://game8.co/games/Monster-Hunter-Wilds/archives/501853"
-            target="_blank"
-            ><img src="images/lifepowder.png" alt="" srcset=""
-          /></a>
+                <a
+                  href="https://game8.co/games/Monster-Hunter-Wilds/archives/501853"
+                  target="_blank"
+                  ><img src="images/lifepowder.png" alt="" srcset=""
+                /></a>
 
-          <a
-            href="https://game8.co/games/Monster-Hunter-Wilds/archives/502421"
-            target="_blank"
-            ><img src="images/maxpotion.png" alt="" srcset=""
-          /></a>
+                <a
+                  href="https://game8.co/games/Monster-Hunter-Wilds/archives/502421"
+                  target="_blank"
+                  ><img src="images/maxpotion.png" alt="" srcset=""
+                /></a>
 
-          <a
-            href="https://game8.co/games/Monster-Hunter-Wilds/archives/501851"
-            target="_blank"
-            ><img src="images/megapotion.png" alt="" srcset=""
-          /></a>
+                <a
+                  href="https://game8.co/games/Monster-Hunter-Wilds/archives/501851"
+                  target="_blank"
+                  ><img src="images/megapotion.png" alt="" srcset=""
+                /></a>
 
-          <a
-            href="https://game8.co/games/Monster-Hunter-Wilds/archives/502415"
-            target="_blank"
-            ><img src="images/nulberry.png" alt="" srcset=""
-          /></a>
+                <a
+                  href="https://game8.co/games/Monster-Hunter-Wilds/archives/502415"
+                  target="_blank"
+                  ><img src="images/nulberry.png" alt="" srcset=""
+                /></a>
 
-          <a
-            href="https://game8.co/games/Monster-Hunter-Wilds/archives/501850"
-            target="_blank"
-            ><img src="images/potion.png" alt="" srcset=""
-          /></a>
+                <a
+                  href="https://game8.co/games/Monster-Hunter-Wilds/archives/501850"
+                  target="_blank"
+                  ><img src="images/potion.png" alt="" srcset=""
+                /></a>
 
-          <a
-            href="https://game8.co/games/Monster-Hunter-Wilds/archives/503788"
-            target="_blank"
-            ><img src="images/raresteak.png" alt="" srcset=""
-          /></a>
+                <a
+                  href="https://game8.co/games/Monster-Hunter-Wilds/archives/503788"
+                  target="_blank"
+                  ><img src="images/raresteak.png" alt="" srcset=""
+                /></a>
 
-          <a
-            href="https://game8.co/games/Monster-Hunter-Wilds/archives/502417"
-            target="_blank"
-            ><img src="images/ration.png" alt="" srcset=""
-          /></a>
+                <a
+                  href="https://game8.co/games/Monster-Hunter-Wilds/archives/502417"
+                  target="_blank"
+                  ><img src="images/ration.png" alt="" srcset=""
+                /></a>
 
-          <a
-            href="https://game8.co/games/Monster-Hunter-Wilds/archives/503790"
-            target="_blank"
-            ><img src="images/sushifish.png" alt="" srcset=""
-          /></a>
+                <a
+                  href="https://game8.co/games/Monster-Hunter-Wilds/archives/503790"
+                  target="_blank"
+                  ><img src="images/sushifish.png" alt="" srcset=""
+                /></a>
 
-          <a
-            href="https://game8.co/games/Monster-Hunter-Wilds/archives/502418"
-            target="_blank"
-            ><img src="images/welldonesteak.png" alt="" srcset=""
-          /></a>
+                <a
+                  href="https://game8.co/games/Monster-Hunter-Wilds/archives/502418"
+                  target="_blank"
+                  ><img src="images/welldonesteak.png" alt="" srcset=""
+                /></a>
 
-          <a
-            href="https://game8.co/games/Monster-Hunter-Wilds/archives/503791"
-            target="_blank"
-            ><img src="images/whetfish.png" alt="" srcset=""
-          /></a>
+                <a
+                  href="https://game8.co/games/Monster-Hunter-Wilds/archives/503791"
+                  target="_blank"
+                  ><img src="images/whetfish.png" alt="" srcset=""
+                /></a>
 
-          <a
-            href="https://game8.co/games/Monster-Hunter-Wilds/archives/503805"
-            target="_blank"
-            ><img src="images/whetfishplus.png" alt="" srcset=""
-          /></a>
-        </p>
+                <a
+                  href="https://game8.co/games/Monster-Hunter-Wilds/archives/503805"
+                  target="_blank"
+                  ><img src="images/whetfishplus.png" alt="" srcset=""
+                /></a>
+              </p>
 
-        <p class="non-allowed-items">
-          <code>NOT ALLOWED</code>
-          <br />
+              <p class="non-allowed-items">
+                <code>NOT ALLOWED</code>
+                <br />
 
-          <a
-            href="https://game8.co/games/Monster-Hunter-Wilds/archives/503785"
-            target="_blank"
-            ><img src="images/not-allowed/adamantpill.png" alt="" srcset=""
-          /></a>
+                <a
+                  href="https://game8.co/games/Monster-Hunter-Wilds/archives/503785"
+                  target="_blank"
+                  ><img
+                    src="images/not-allowed/adamantpill.png"
+                    alt=""
+                    srcset=""
+                /></a>
 
-          <a
-            href="https://game8.co/games/Monster-Hunter-Wilds/archives/501786"
-            target="_blank"
-            ><img src="images/not-allowed/adamantseed.png" alt="" srcset=""
-          /></a>
+                <a
+                  href="https://game8.co/games/Monster-Hunter-Wilds/archives/501786"
+                  target="_blank"
+                  ><img
+                    src="images/not-allowed/adamantseed.png"
+                    alt=""
+                    srcset=""
+                /></a>
 
-          <a
-            href="https://game8.co/games/Monster-Hunter-Wilds/archives/501861"
-            target="_blank"
-            ><img src="images/not-allowed/armorskin.png" alt="" srcset=""
-          /></a>
+                <a
+                  href="https://game8.co/games/Monster-Hunter-Wilds/archives/501861"
+                  target="_blank"
+                  ><img src="images/not-allowed/armorskin.png" alt="" srcset=""
+                /></a>
 
-          <a
-            href="https://game8.co/games/Monster-Hunter-Wilds/archives/501855"
-            target="_blank"
-            ><img src="images/not-allowed/barrelbomb.png" alt="" srcset=""
-          /></a>
+                <a
+                  href="https://game8.co/games/Monster-Hunter-Wilds/archives/501855"
+                  target="_blank"
+                  ><img
+                    src="images/not-allowed/barrelbomb.png"
+                    alt=""
+                    srcset=""
+                /></a>
 
-          <a
-            href="https://game8.co/games/Monster-Hunter-Wilds/archives/536436"
-            target="_blank"
-            ><img src="images/not-allowed/beachbarrelbomb.png" alt="" srcset=""
-          /></a>
+                <a
+                  href="https://game8.co/games/Monster-Hunter-Wilds/archives/536436"
+                  target="_blank"
+                  ><img
+                    src="images/not-allowed/beachbarrelbomb.png"
+                    alt=""
+                    srcset=""
+                /></a>
 
-          <a
-            href="https://game8.co/games/Monster-Hunter-Wilds/archives/515313"
-            target="_blank"
-            ><img
-              src="images/not-allowed/blossombarrelbomb.png"
-              alt=""
-              srcset=""
-          /></a>
+                <a
+                  href="https://game8.co/games/Monster-Hunter-Wilds/archives/515313"
+                  target="_blank"
+                  ><img
+                    src="images/not-allowed/blossombarrelbomb.png"
+                    alt=""
+                    srcset=""
+                /></a>
 
-          <a
-            href="https://game8.co/games/Monster-Hunter-Wilds/archives/503803"
-            target="_blank"
-            ><img src="images/not-allowed/dashjuice.png" alt="" srcset=""
-          /></a>
+                <a
+                  href="https://game8.co/games/Monster-Hunter-Wilds/archives/503803"
+                  target="_blank"
+                  ><img src="images/not-allowed/dashjuice.png" alt="" srcset=""
+                /></a>
 
-          <a
-            href="https://game8.co/games/Monster-Hunter-Wilds/archives/501862"
-            target="_blank"
-            ><img src="images/not-allowed/demondrug.png" alt="" srcset=""
-          /></a>
+                <a
+                  href="https://game8.co/games/Monster-Hunter-Wilds/archives/501862"
+                  target="_blank"
+                  ><img src="images/not-allowed/demondrug.png" alt="" srcset=""
+                /></a>
 
-          <a
-            href="https://game8.co/games/Monster-Hunter-Wilds/archives/502420"
-            target="_blank"
-            ><img src="images/not-allowed/demonpowder.png" alt="" srcset=""
-          /></a>
+                <a
+                  href="https://game8.co/games/Monster-Hunter-Wilds/archives/502420"
+                  target="_blank"
+                  ><img
+                    src="images/not-allowed/demonpowder.png"
+                    alt=""
+                    srcset=""
+                /></a>
 
-          <a
-            href="https://game8.co/games/Monster-Hunter-Wilds/archives/501866"
-            target="_blank"
-            ><img src="images/not-allowed/druggedmeat.png" alt="" srcset=""
-          /></a>
+                <a
+                  href="https://game8.co/games/Monster-Hunter-Wilds/archives/501866"
+                  target="_blank"
+                  ><img
+                    src="images/not-allowed/druggedmeat.png"
+                    alt=""
+                    srcset=""
+                /></a>
 
-          <a
-            href="https://game8.co/games/Monster-Hunter-Wilds/archives/503792"
-            target="_blank"
-            ><img src="images/not-allowed/farcaster.png" alt="" srcset=""
-          /></a>
+                <a
+                  href="https://game8.co/games/Monster-Hunter-Wilds/archives/503792"
+                  target="_blank"
+                  ><img src="images/not-allowed/farcaster.png" alt="" srcset=""
+                /></a>
 
-          <a
-            href="https://game8.co/games/Monster-Hunter-Wilds/archives/503804"
-            target="_blank"
-            ><img src="images/not-allowed/greatsushifish.png" alt="" srcset=""
-          /></a>
+                <a
+                  href="https://game8.co/games/Monster-Hunter-Wilds/archives/503804"
+                  target="_blank"
+                  ><img
+                    src="images/not-allowed/greatsushifish.png"
+                    alt=""
+                    srcset=""
+                /></a>
 
-          <a
-            href="https://game8.co/games/Monster-Hunter-Wilds/archives/502419"
-            target="_blank"
-            ><img src="images/not-allowed/hardshellpowder.png" alt="" srcset=""
-          /></a>
+                <a
+                  href="https://game8.co/games/Monster-Hunter-Wilds/archives/502419"
+                  target="_blank"
+                  ><img
+                    src="images/not-allowed/hardshellpowder.png"
+                    alt=""
+                    srcset=""
+                /></a>
 
-          <a
-            href="https://game8.co/games/Monster-Hunter-Wilds/archives/501860"
-            target="_blank"
-            ><img src="images/not-allowed/immunizer.png" alt="" srcset=""
-          /></a>
+                <a
+                  href="https://game8.co/games/Monster-Hunter-Wilds/archives/501860"
+                  target="_blank"
+                  ><img src="images/not-allowed/immunizer.png" alt="" srcset=""
+                /></a>
 
-          <a
-            href="https://game8.co/games/Monster-Hunter-Wilds/archives/501856"
-            target="_blank"
-            ><img
-              src="images/not-allowed/largebarrelbombs.png"
-              alt=""
-              srcset=""
-          /></a>
+                <a
+                  href="https://game8.co/games/Monster-Hunter-Wilds/archives/501856"
+                  target="_blank"
+                  ><img
+                    src="images/not-allowed/largebarrelbombs.png"
+                    alt=""
+                    srcset=""
+                /></a>
 
-          <a
-            href="https://game8.co/games/Monster-Hunter-Wilds/archives/503799"
-            target="_blank"
-            ><img src="images/not-allowed/megaarmorskin.png" alt="" srcset=""
-          /></a>
+                <a
+                  href="https://game8.co/games/Monster-Hunter-Wilds/archives/503799"
+                  target="_blank"
+                  ><img
+                    src="images/not-allowed/megaarmorskin.png"
+                    alt=""
+                    srcset=""
+                /></a>
 
-          <a
-            href="https://game8.co/games/Monster-Hunter-Wilds/archives/503800"
-            target="_blank"
-            ><img src="images/not-allowed/megabarrelbombs.png" alt="" srcset=""
-          /></a>
+                <a
+                  href="https://game8.co/games/Monster-Hunter-Wilds/archives/503800"
+                  target="_blank"
+                  ><img
+                    src="images/not-allowed/megabarrelbombs.png"
+                    alt=""
+                    srcset=""
+                /></a>
 
-          <a
-            href="https://game8.co/games/Monster-Hunter-Wilds/archives/503798"
-            target="_blank"
-            ><img src="images/not-allowed/megademondrug.png" alt="" srcset=""
-          /></a>
+                <a
+                  href="https://game8.co/games/Monster-Hunter-Wilds/archives/503798"
+                  target="_blank"
+                  ><img
+                    src="images/not-allowed/megademondrug.png"
+                    alt=""
+                    srcset=""
+                /></a>
 
-          <a
-            href="https://game8.co/games/Monster-Hunter-Wilds/archives/503784"
-            target="_blank"
-            ><img src="images/not-allowed/mightpill.png" alt="" srcset=""
-          /></a>
+                <a
+                  href="https://game8.co/games/Monster-Hunter-Wilds/archives/503784"
+                  target="_blank"
+                  ><img src="images/not-allowed/mightpill.png" alt="" srcset=""
+                /></a>
 
-          <a
-            href="https://game8.co/games/Monster-Hunter-Wilds/archives/503786"
-            target="_blank"
-            ><img src="images/not-allowed/mightseed.png" alt="" srcset=""
-          /></a>
+                <a
+                  href="https://game8.co/games/Monster-Hunter-Wilds/archives/503786"
+                  target="_blank"
+                  ><img src="images/not-allowed/mightseed.png" alt="" srcset=""
+                /></a>
 
-          <a
-            href="https://game8.co/games/Monster-Hunter-Wilds/archives/501857"
-            target="_blank"
-            ><img src="images/not-allowed/pitfalltrap.png" alt="" srcset=""
-          /></a>
+                <a
+                  href="https://game8.co/games/Monster-Hunter-Wilds/archives/501857"
+                  target="_blank"
+                  ><img
+                    src="images/not-allowed/pitfalltrap.png"
+                    alt=""
+                    srcset=""
+                /></a>
 
-          <a
-            href="https://game8.co/games/Monster-Hunter-Wilds/archives/501867"
-            target="_blank"
-            ><img src="images/not-allowed/poisonedmeat.png" alt="" srcset=""
-          /></a>
+                <a
+                  href="https://game8.co/games/Monster-Hunter-Wilds/archives/501867"
+                  target="_blank"
+                  ><img
+                    src="images/not-allowed/poisonedmeat.png"
+                    alt=""
+                    srcset=""
+                /></a>
 
-          <a
-            href="https://game8.co/games/Monster-Hunter-Wilds/archives/501865"
-            target="_blank"
-            ><img src="images/not-allowed/poisonsmokebomb.png" alt="" srcset=""
-          /></a>
+                <a
+                  href="https://game8.co/games/Monster-Hunter-Wilds/archives/501865"
+                  target="_blank"
+                  ><img
+                    src="images/not-allowed/poisonsmokebomb.png"
+                    alt=""
+                    srcset=""
+                /></a>
 
-          <a
-            href="https://game8.co/games/Monster-Hunter-Wilds/archives/501858"
-            target="_blank"
-            ><img src="images/not-allowed/shocktrap.png" alt="" srcset=""
-          /></a>
+                <a
+                  href="https://game8.co/games/Monster-Hunter-Wilds/archives/501858"
+                  target="_blank"
+                  ><img src="images/not-allowed/shocktrap.png" alt="" srcset=""
+                /></a>
 
-          <a
-            href="https://game8.co/games/Monster-Hunter-Wilds/archives/501864"
-            target="_blank"
-            ><img src="images/not-allowed/smokebomb.png" alt="" srcset=""
-          /></a>
+                <a
+                  href="https://game8.co/games/Monster-Hunter-Wilds/archives/501864"
+                  target="_blank"
+                  ><img src="images/not-allowed/smokebomb.png" alt="" srcset=""
+                /></a>
 
-          <a
-            href="https://game8.co/games/Monster-Hunter-Wilds/archives/559917"
-            target="_blank"
-            ><img
-              src="images/not-allowed/spectralbarrelbomb.png"
-              alt=""
-              srcset=""
-          /></a>
+                <a
+                  href="https://game8.co/games/Monster-Hunter-Wilds/archives/559917"
+                  target="_blank"
+                  ><img
+                    src="images/not-allowed/spectralbarrelbomb.png"
+                    alt=""
+                    srcset=""
+                /></a>
 
-          <a
-            href="https://game8.co/games/Monster-Hunter-Wilds/archives/503779"
-            target="_blank"
-            ><img src="images/not-allowed/tingedmeat.png" alt="" srcset=""
-          /></a>
+                <a
+                  href="https://game8.co/games/Monster-Hunter-Wilds/archives/503779"
+                  target="_blank"
+                  ><img
+                    src="images/not-allowed/tingedmeat.png"
+                    alt=""
+                    srcset=""
+                /></a>
 
-          <a
-            href="https://game8.co/games/Monster-Hunter-Wilds/archives/501868"
-            target="_blank"
-            ><img src="images/not-allowed/tranqbomb.png" alt="" srcset=""
-          /></a>
+                <a
+                  href="https://game8.co/games/Monster-Hunter-Wilds/archives/501868"
+                  target="_blank"
+                  ><img src="images/not-allowed/tranqbomb.png" alt="" srcset=""
+                /></a>
 
-          <a
-            href="https://game8.co/games/Monster-Hunter-Wilds/archives/503793"
-            target="_blank"
-            ><img src="images/not-allowed/wildjerky.png" alt="" srcset=""
-          /></a>
-        </p>
-      </div>
+                <a
+                  href="https://game8.co/games/Monster-Hunter-Wilds/archives/503793"
+                  target="_blank"
+                  ><img src="images/not-allowed/wildjerky.png" alt="" srcset=""
+                /></a>
+              </p>
+            </div>
+          </div>
+        </div>
 
-      <!-- MISC -->
-      <div class="misc">
-        <h2>MISCELLANEOUS</h2>
-        <ul>
-          <li>
-            Before starting, enter the <code>TRAINING AREA</code> to
-            <code>REMOVE</code> all beneficial buffs. <code>FOOD</code> or
-            <code>MEALS</code> are fine, and you can choose which meal or food
-            to eat.
-          </li>
-          <li>
-            <code>ENVIROMENTAL DAMAGE</code> is not allowed unless accidentally
-            triggered via weapon attacks, or the monster self crashing
-            themselves into them.
-          </li>
-          <li>Place <code>PALICOS</code> on <code>STANDBY</code></li>
-          <li>
-            Items needed for <code>CRAFTING</code> more of the
-            <code>ALLOWED ITEMS</code> are allowed to be in your
-            <code>LOADOUT</code>, however they can not be used directly if they
-            apply a beneficial buff. For example, <code>IMMUNIZERS</code> can be
-            brought for crafting <code>ANCIENT POTIONS</code>, but can not be
-            used for the natural healing buff.
-          </li>
-        </ul>
+        <!-- MISCELLANEOUS -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseSeven"
+              aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseSeven"
+            >
+              MISCELLANEOUS RULES
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapseSeven"
+            class="accordion-collapse collapse"
+          >
+            <div class="accordion-body">
+              <ul>
+                <li>
+                  Before starting, enter the <code>TRAINING AREA</code> to
+                  <code>REMOVE</code> all beneficial buffs. <code>FOOD</code> or
+                  <code>MEALS</code> are fine, and you can choose which meal or
+                  food to eat.
+                </li>
+                <li>
+                  <code>ENVIROMENTAL DAMAGE</code> is not allowed unless
+                  accidentally triggered via weapon attacks, or the monster self
+                  crashing themselves into them.
+                </li>
+                <li>Place <code>PALICOS</code> on <code>STANDBY</code></li>
+                <li>
+                  Items needed for <code>CRAFTING</code> more of the
+                  <code>ALLOWED ITEMS</code> are allowed to be in your
+                  <code>LOADOUT</code>, however they can not be used directly if
+                  they apply a beneficial buff. For example,
+                  <code>IMMUNIZERS</code> can be brought for crafting
+                  <code>ANCIENT POTIONS</code>, but can not be used for the
+                  natural healing buff.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        
       </div>
     </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

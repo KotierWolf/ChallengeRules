@@ -1,57 +1,23 @@
-.horizontal-line {
-  color: white;
-}
-
-.overall {
-  justify-content: center;
-  color: white;
-}
-
-.sharkboy {
-  border-style: none;
-  text-align: center;
-  width: 100%;
-  color: white;
-}
-
 header {
   display: flex;
   justify-content: center;
+  text-align: center;
+}
+
+.sharkboy {
+  text-align: center;
+  justify-content: center;
+}
+
+.accordion {
+  padding: 5em;
+}
+
+.accordion-button {
+  justify-content: center;
+}
+
+.accordion-button:hover {
+  background-color: black;
   color: white;
-  background-image: url(images/13273.gif);
-  background-size: contain;
-  background-blend-mode: lighten;
-  opacity: 0.6;
-}
-
-section {
-  display: inline-flex;
-  flex-wrap: wrap;
-  gap: 4rem;
-  padding: 2rem;
-}
-
-h2 {
-  text-align: center;
-}
-
-p {
-  width: 15rem;
-  border-style: groove;
-  text-align: center;
-}
-
-img {
-  display: inline-flex;
-  width: 2.5rem;
-  height: 2.5rem;
-  transition: all 1s;
-}
-
-img:hover {
-  transform: scale(1.1);
-}
-
-ul {
-  border-style: groove;
 }
